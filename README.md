@@ -10,6 +10,7 @@ This project uses constant turn rate and velocity magnitude model (CTRV), which 
 - psi dot - yaw rate
 
 The diagram of the CTRV model (source: http://www.udacity.com/):
+
 <img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/CTRV_model.png" width="300" height="300"/>
 
 ## Project files
@@ -33,4 +34,5 @@ The project uses Eigen library, so for compilation Eigen library files must be p
 
 ## Results
 The output results introduced in "output_data" folder. Additionaly, here are RMSE values (calculated for 2D position and 2D velocity):
-<img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/RMSE.png" width="200" height="100"/>
+
+<img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/RMSE.png" width="250" height="100"/>
