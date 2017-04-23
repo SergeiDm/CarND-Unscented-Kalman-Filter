@@ -33,7 +33,7 @@ The project can be compiled and run by using, for example, the following command
 The project uses Eigen library, so for compilation Eigen library files must be put in 'src' folder.
 
 ## Results
-The output results introduced in "output_data" folder. Additionaly, here are RMSE values (calculated for 2D position and 2D velocity):
+The output results introduced in 'output_data' folder. Additionaly, here are RMSE values (calculated for 2D position and 2D velocity):
 
 <img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/RMSE.png" width="270" height="100"/>
 
