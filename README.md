@@ -8,6 +8,9 @@ This project uses constant turn rate and velocity magnitude model (CTRV), which 
 - psi - yaw angle
 - psi dot - yaw rate
 The diagram of the CTRV model (source: http://www.udacity.com/):
+<img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/CTRV_model.png" width="200" height="200" />
+
+
 ![CTRV model](https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/CTRV_model.png)
 
 ## Project files
