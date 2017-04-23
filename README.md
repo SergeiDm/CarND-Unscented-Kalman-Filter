@@ -50,6 +50,7 @@ The model used in the project has hyperparameters which were adjusted:
 - standard deviation yaw acceleration in rad/s^2
 
 To control their adjustment 'Normalized Innovation Squared' check was used. NIS calculation is based on the difference between the predicted measurement and the actual measurement.
+
 The following picture shows that NIS under chi-square 5% point most of the time:
 
 <img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/NIS.png" width="500" height="400"/>
