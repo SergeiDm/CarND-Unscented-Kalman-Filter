@@ -33,7 +33,7 @@ The project can be compiled and run by using, for example, the following command
 The project uses Eigen library, so for compilation Eigen library files must be put in 'src' folder.
 
 ## Results
-The output results introduced in 'output_data' folder. Additionaly, here are RMSE values (calculated for 2D position and 2D velocity):
+The output results are introduced in 'output_data' folder. Additionaly, here are RMSE values (calculated for 2D position and 2D velocity):
 
 <img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/RMSE.png" width="270" height="100"/>
 
@@ -51,6 +51,6 @@ The model used in the project has hyperparameters which were adjusted:
 
 To control their adjustment 'Normalized Innovation Squared' check was used. NIS calculation is based on the difference between the predicted measurement and the actual measurement.
 
-The following picture shows that NIS under chi-square 5% point most of the time:
+The following picture shows that NIS (for Sensor Fusion) is under chi-square 5% point most of the time:
 
 <img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/NIS.png" width="500" height="400"/>
