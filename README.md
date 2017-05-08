@@ -53,4 +53,4 @@ To control their adjustment 'Normalized Innovation Squared' check was used. NIS 
 
 The following picture shows that NIS (for Sensor Fusion) is under chi-square 5% point most of the time:
 
-<img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/NIS.png" width="500" height="400"/>
+<img src="https://github.com/SergeiDm/CarND-Unscented-Kalman-Filter/blob/master/illustrations/NIS.png" width="600" height="400"/>
